@@ -1,5 +1,7 @@
 # ArteRomanico
 
-PIIMMMMMMMMM TOFRESKITOOOOO
+Autores:
+María Rustarazo Garcia
+Francisco López Soto
 
 
