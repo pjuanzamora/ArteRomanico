@@ -1,0 +1,18 @@
+body{
+    background-color: bisque;
+}
+
+h1{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.Introducción{
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    font-size: large;
+}
+
