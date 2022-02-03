@@ -1,5 +1,24 @@
 body{
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
+}
+
+.idc-box {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa; 
+    display: table; 
+    font-size: medium;
+    margin-bottom: 1em;  
+    padding: 20px;
+    width: auto;
+    margin-left: 250px;
+} 
+.idc-box .idc-titulo {    
+    font-weight: 700;
+    text-align: center;
+}
+.idc-box li, .idc-box ul, .idc-box ul li{
+    padding: 0 5px;
+    list-style: outside none none !important; 
 }
 
 h1{
@@ -13,6 +32,6 @@ h1{
     margin-left: 400px;
     margin-right: 400px;
     text-align: center;
-    font-size: large;
+    font-size: 0.5cm;
 }
 
