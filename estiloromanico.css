@@ -91,7 +91,7 @@ ul li ul li a {
     transition: all 0.5s ease;
 }
 
-/*Slide*/
+/*Slide 1*/
 .slide {
     position: relative;
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
@@ -120,7 +120,7 @@ ul li ul li a {
 .slide-item img {
     display: block;
     height: auto;
-    max-width: 100%;
+    max-width: 40%;
 }
 
 .slide-control {
@@ -211,4 +211,4 @@ ul li ul li a {
     z-index: 9999;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), 
          -1px 0px 2px rgba(255, 255, 255, 0);
-}
+} 
