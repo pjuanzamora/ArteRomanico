@@ -1,16 +1,19 @@
-
+.titulo{
+  text-align: center;
+  color: #96b2ee;
+}
 body {
     font-family: "Libre Baskerville", serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
-    background-color: #0c0f15;
+    background-color: #5e6779;
     overflow-x:hidden;
     color: #ababab; }
   
   ::-webkit-scrollbar {
       width: 10px;
-      background-color: #F5F5F5;
+      background-color: #c6caf1;
     
   }
   
@@ -612,4 +615,7 @@ body {
   }
     
   }
-  
+  footer{
+    text-align: center;
+    text-decoration:aliceblue;
+  }
