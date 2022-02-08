@@ -1,13 +1,10 @@
-.titulo{
-  text-align: center;
-  color: #96b2ee;
-}
+  color: #516d83;
 body {
     font-family: "Libre Baskerville", serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
-    background-color: #5e6779;
+    background-color: #0c0f15;
     overflow-x:hidden;
     color: #ababab; }
   
@@ -16,7 +13,7 @@ body {
       background-color: #c6caf1;
     
   }
-  
+
   ::-webkit-scrollbar-thumb {
       background-color: #0a56f9;
       background-image: -webkit-linear-gradient(45deg,rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(204, 206, 223, 0.2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
@@ -340,7 +337,7 @@ body {
     background-size: cover;
     vertical-align: middle; }
     .page-home .overlay {
-      background-color: rgba(14, 17, 24, 0.97);
+      background-color: rgba(53, 64, 92, 0.97);
   }
   
   /* End of container */
