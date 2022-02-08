@@ -1,5 +1,6 @@
 body{
   margin: 0px;
+  background-image: url("imagenes/depositphotos_197046556-stock-photo-abstract-yellow-and-white-color.jpg");
 }
 
 
@@ -78,7 +79,7 @@ overflow:visible;
 
 .main-menu {
   margin-top: 80px;
-background:#e6c406;
+background:#ebd664;
 border-right:1px solid #e5e5e5;
 position:absolute;
 top:0;
