@@ -1,7 +1,22 @@
 header{
+  
     background-image: url("Fotos/Alargada.jpg");
+    background-position-x: 450px;
+    background-repeat: no-repeat;
     padding: 100px;
-    color: #ffffff
+    color: #ffffff;
+    font-size: large;
+    position: relative;
+    text-align: center;
+}
+.Portada{
+  -ms-perspective-origin-x: 400px;
+}
+.Bloque{
+  background-color: rgb(233, 231, 230);
+  position: relative;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
 }
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 }
