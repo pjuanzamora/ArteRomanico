@@ -1,16 +1,24 @@
-  color: #516d83;
+header{
+  color: #0f1e3d;
+  text-align: center;
+  height: 40px;
+  font-size: 30px;
+  padding-top: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 body {
     font-family: "Libre Baskerville", serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
-    background-color: #0c0f15;
+    background-color: #95afe2;
     overflow-x:hidden;
     color: #ababab; }
   
   ::-webkit-scrollbar {
       width: 10px;
-      background-color: #c6caf1;
+      background-color: #95afe2;
     
   }
 
@@ -21,7 +29,7 @@ body {
   
   ::-webkit-scrollbar-track {
       -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-      background-color: #F5F5F5;
+      background-color: #95afe2;
   }
   
   .heading-page
@@ -30,7 +38,7 @@ body {
       font-size: 43px;
       font-weight: bolder;
       letter-spacing: 3px;
-      color: white;
+      color: rgb(186, 195, 235);
   }
   a {
     color: inherit;
@@ -248,7 +256,7 @@ body {
   -------------------------------------------------*/
   .mt20{margin-top:20px;}
   .site-wrapper {
-    border-top: 4px solid #6297fa; }
+    border-top: 4px solid #3864b8; }
   
   .page-close {
     font-size: 30px;
@@ -338,6 +346,7 @@ body {
     vertical-align: middle; }
     .page-home .overlay {
       background-color: rgba(53, 64, 92, 0.97);
+
   }
   
   /* End of container */
@@ -614,5 +623,5 @@ body {
   }
   footer{
     text-align: center;
-    text-decoration:aliceblue;
+   color: rgb(15, 15, 68);
   }
