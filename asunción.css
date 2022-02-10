@@ -1,14 +1,20 @@
 body{
   margin: 0px;
-  background-image: url("imagenes/depositphotos_197046556-stock-photo-abstract-yellow-and-white-color.jpg");
-}
+  background-image:url("imagenes/iglesia-asuncion-villacarrillo.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  }
 
 
 header h1{
   margin-top: 0px;
 	text-align: center;
   padding: 20px;
-  background-image: url("imagenes/iglesia\ asuncion\ villacarrillo\ \(9\).JPG");
+  background-image: url("imagenes/FJFJFJF.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  font-weight:900;
 
 }
 
@@ -23,12 +29,7 @@ footer{
 }
 
 
-.inicio{
-  text-align: center;
-	margin-left: 65px
-  
 
-}
 
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 }
@@ -68,6 +69,7 @@ height: 36px;
 text-align: center;
 vertical-align: middle;
 font-size:20px;
+
 }
 
 
@@ -78,8 +80,9 @@ overflow:visible;
 }
 
 .main-menu {
-  margin-top: 80px;
-background:#ebd664;
+  margin-top: 75px;
+  background-image: url("imagenes/FJFJFJF.jpg");
+  background-repeat: no-repeat;
 border-right:1px solid #e5e5e5;
 position:absolute;
 top:0;
