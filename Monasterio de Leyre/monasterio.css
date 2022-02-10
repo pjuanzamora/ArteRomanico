@@ -23,9 +23,7 @@ body{
   
 }
 
-.fototitulo1{
-  grid-column: 7 / span 8;
-}
+
 
 .fototitulo{
   grid-column: 1 / span 2;
@@ -37,6 +35,9 @@ body{
     text-align: center;
 }
 
+.fototitulo1{
+  grid-column: 7 / span 2;
+}
 
 #header {
   margin:auto;
