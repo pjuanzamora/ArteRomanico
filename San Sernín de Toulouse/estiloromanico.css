@@ -115,8 +115,8 @@ ul li ul li a {
 .slide-item {
     position: absolute;
     opacity: 0;
-    -webkit-transition: opacity 0.5s ease-out;
-    transition: opacity 3s ease-out;
+    -webkit-transition: opacity 0s ease-out;
+    transition: opacity 0.5s ease-out;
 }
 
 .slide-item img {
