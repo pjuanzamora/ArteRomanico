@@ -58,7 +58,7 @@ font-size:20px;
 .main-menu:hover,nav.main-menu.expanded {
 width:250px;
 overflow:visible;
->>>>>>> Stashed changes
+
 }
 .fa {
 position: relative;
@@ -71,7 +71,7 @@ font-size:20px;
 }
 
 
-<<<<<<< Updated upstream
+
 .main-menu:hover,nav.main-menu.expanded {
 width:250px;
 overflow:visible;
@@ -119,7 +119,6 @@ z-index:1000;
 margin:7px 0;
 }
 
->>>>>>> Stashed changes
 .main-menu li {
 position:relative;
 display:block;
@@ -150,10 +149,6 @@ height:36px;
 text-align:center;
 vertical-align:middle;
 font-size:18px;
-<<<<<<< Updated upstream
-margin-right: 50px;
-=======
->>>>>>> Stashed changes
 }
 
 .main-menu .nav-text {
@@ -206,9 +201,5 @@ background-color:#5fa2db;
   font-style: normal;
   font-weight: 300;
   src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');
-<<<<<<< Updated upstream
-}
 
-=======
 }
->>>>>>> Stashed changes
