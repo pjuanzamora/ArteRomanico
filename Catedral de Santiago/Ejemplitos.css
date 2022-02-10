@@ -1,0 +1,35 @@
+header{
+    color: white;
+    background-color: rgb(92, 92, 235);
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 2px;
+}
+body{
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}                           
+
+
+
+
+table{
+    color:black ;
+    background-color:gainsboro;
+    
+}
+
+footer{
+    color: white;
+    background-color: black;
+    font-size: 7px;
+    padding: 20px;
+
+
+}
+td{
+    margin: 50px 10px 20px 10px;
+}
