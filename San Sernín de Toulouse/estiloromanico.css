@@ -107,16 +107,16 @@ ul li ul li a {
     height: calc( 450px + 3em);
 }
 
-.slide-open:checked + .slide-item {
-    position: static;
-    opacity: 100;
-}
-
 .slide-item {
     position: absolute;
     opacity: 0;
-    -webkit-transition: opacity 0s ease-out;
-    transition: opacity 0.5s ease-out;
+    transition: ease-out 0s;
+    transition: ease-in 0.5s;
+}
+
+.slide-open:checked + .slide-item {
+    position: static;
+    opacity: 1;
 }
 
 .slide-item img {
