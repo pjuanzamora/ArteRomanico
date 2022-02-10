@@ -1,0 +1,50 @@
+.Titulo{
+  text-align: center;
+  color: black;
+  font-size: 60px;
+  padding: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: pref;
+  background: linear-gradient(to right, rgb(139, 143, 129), white);
+  border-color: darkkhaki;
+}
+
+.Imagen{
+
+}
+.Texto{
+ font-size: medium;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+    
+body{
+ background-image: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/11/15-Presentation-Background-Examples16.jpeg);
+}
+
+table{
+  text-align: center;
+  border-spacing: 200px;
+  border-collapse: separate;
+}
+
+
+header{
+  margin-bottom: 100px;
+  border: burlywood;
+}
+
+
+
+.location-listing {
+  position: relative;
+}
+
+.location-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(90,0,10,0.4);
+}
+
