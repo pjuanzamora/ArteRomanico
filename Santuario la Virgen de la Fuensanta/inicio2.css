@@ -1,0 +1,19 @@
+header{
+    color: #686057;
+    text-align: center;
+    height: 40px;
+    font-size: 30px;
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+      font-family: "Libre Baskerville", serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      background-color: #b9a692;
+      overflow-x:hidden;
+      color: #a59789ab; 
+    }
+    

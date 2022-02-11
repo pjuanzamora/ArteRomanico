@@ -112,7 +112,7 @@ body {
       outline: 0 none; }
   
   .btn-primary {
-    background-color: #6297fa;
+    background-color: #797464;
     border: 0;
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
@@ -121,7 +121,7 @@ body {
     padding: 0 42px;
     text-transform: uppercase; }
     .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:active:focus {
-      background-color: #6297fa; }
+      background-color: #746754; }
   
   .btn-border {
     border: 1px solid #d7d8db;
@@ -192,7 +192,7 @@ body {
     justify-content: space-between; }
   
   .nicescroll-cursors {
-    background: #6297fa !important; }
+    background: #94876e !important; }
   
   .preloader {
     bottom: 0;
@@ -387,7 +387,7 @@ body {
           height: 5px; }
       .hexagon-item:hover .hex-item div::before,
       .hexagon-item:hover .hex-item div::after {
-        background-color: #6297fa; }
+        background-color: #6e6351; }
       .hexagon-item:hover .hex-content svg {
         -webkit-transform: scale(0.97);
         -moz-transform: scale(0.97);
@@ -436,7 +436,7 @@ body {
       -o-transform-origin: center center;
       transform-origin: center center; }
       .hex-item div::before, .hex-item div::after {
-        background-color: #1e2530;
+        background-color: #7a6c57;
         content: "";
         position: absolute;
         width: 100%;
@@ -559,7 +559,7 @@ body {
   
   .hexagon-item:hover .icon i
   {
-    color:#008cff;
+    color:#857157;
     transition:0.6s;
     
   }
@@ -624,5 +624,5 @@ body {
   }
   footer{
     text-align: center;
-   color: rgb(15, 15, 68);
+   color: rgb(59, 58, 57);
   }
