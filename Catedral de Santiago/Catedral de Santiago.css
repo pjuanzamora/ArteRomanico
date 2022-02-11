@@ -6,13 +6,25 @@ header{
     padding: 100px;
     color: #ffffff;
     text-align: center;
+    font-size: x-large;
 }
-
+body{
+  background-color: antiquewhite;
+}
 .Bloque{
   background-color: rgb(233, 231, 230);
   position: relative;
   font-family: 'Times New Roman', Times, serif;
   font-size: medium;
+}
+.concepto{
+  text-align: center;
+  
+}
+.titulo{
+  text-align: center;
+  background-color: antiquewhite
+
 }
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 }
