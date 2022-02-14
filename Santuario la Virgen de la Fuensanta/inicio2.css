@@ -1,4 +1,4 @@
-header{
+head{
     color: #686057;
     text-align: center;
     height: 40px;
@@ -16,4 +16,28 @@ header{
       overflow-x:hidden;
       color: #a59789ab; 
     }
+    *{margin:10;padding:10;box-sizing:border-box;font-size:10;}
+            
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+    }
+
+    nav li{
+    display:inline-block;
+    width:10%;
+    padding:5px 10px;
+    background-color:#000;
+    border:1px solid #000;
+    text-align:center;
+    color:#fff;
+    }
+
+    nav li:hover{
+    background-color:#fff;
+    color:#000;
+    }
+
+    nav{text-align: center;}
     
