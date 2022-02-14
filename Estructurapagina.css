@@ -2,23 +2,22 @@
   text-align: center;
   color: black;
   font-size: 60px;
-  padding: 20px;
+  padding: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: pref;
-  background: linear-gradient(to right, rgb(139, 143, 129), white);
-  border-color: darkkhaki;
+  background-color: rgb(180, 125, 125);
 }
 
 .Imagen{
 
 }
 .Texto{
- font-size: medium;
- font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 30px;
+ font-family: cursive;
 }
     
 body{
- background-image: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/11/15-Presentation-Background-Examples16.jpeg);
+  background: linear-gradient(to right, rgb(195, 236, 238), rgb(77, 101, 133))
 }
 
 table{
