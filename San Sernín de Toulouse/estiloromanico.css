@@ -301,17 +301,17 @@ body {
     opacity: 1;
 }
 .blog-card:hover .blog-card__info h5 {
-    color: #ffb535;
+    color: #3ca0e7;
 }
 a.icon-link {
     color: #363738;
     transition: 200ms ease-in-out;
 }
 a.icon-link i {
-    color: #ffb535;
+    color: #3ca0e7;
 }
 a.icon-link:hover {
-    color: #ffb535;
+    color: #3ca0e7;
     text-decoration: none;
 }
 .btn {
@@ -332,7 +332,7 @@ a.icon-link:hover {
     box-shadow: none;
 }
 .btn:hover {
-    background: #ffb535;
+    background: #3ca0e7;
     color: #fff;
 }
 .btn.btn--with-icon {
@@ -345,9 +345,22 @@ a.icon-link:hover {
     line-height: 50px;
     vertical-align: bottom;
     color: white;
-    background: #ffb535;
+    background: #3ca0e7;
     clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
 }
 .btn.btn--only-icon {
     width: 50px;
 }
+
+/*Grid*/
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+  .b{
+    padding: auto;
+    margin: auto;
+    background-color: white;
+  }
