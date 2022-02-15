@@ -219,7 +219,10 @@ body {
     -webkit-transition: all 0.6s cubic-bezier(0.61, 0, 0.6, 1) 0s;
     -moz-transition: all 0.6s cubic-bezier(0.61, 0, 0.6, 1) 0s;
     -o-transition: all 0.6s cubic-bezier(0.61, 0, 0.6, 1) 0s;
-    transition: all 0.6s cubic-bezier(0.61, 0, 0.6, 1) 0s; }
+    transition: all 0.6s cubic-bezier(0.61, 0, 0.6, 1) 0s; 
+
+  }
+  
     .loading-mask:nth-child(2) {
       left: 20%;
       -webkit-transition-delay: 0.1s;
