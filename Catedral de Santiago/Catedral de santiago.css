@@ -15,9 +15,12 @@ footer{
     border: 1px solid black;
     margin-top: 4.5cm;
 }
-#Basílica{
-    margin-top: 2cm;
-    border: 1px solid black;
+.Concepto{
+    text-align: center;
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+
 
 }
 
