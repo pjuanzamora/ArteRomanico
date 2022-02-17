@@ -3,10 +3,13 @@ body{
   background-image:url("imagenes/iglesia-asuncion-villacarrillo.JPG");
   background-repeat: no-repeat;
   background-size: cover;
-
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:maroon;
   }
 
 header{
+  display: grid;
+  grid-template-columns:repeat(10,1fr);
   margin-top: 0px;
 	text-align: center;
   padding: 20px;
@@ -14,6 +17,18 @@ header{
   background-repeat:no-repeat;
   background-size: cover;
   font-weight:900;
+  font-size: 20px;
+}
+.foto{
+ grid-column: 2/ span 1;
+ width: 150px;
+}
+.foto2{
+  grid-column: 10/ span 1;
+  width: 110px;
+ }
+.titulo{
+  grid-column: 3/span 7;
 }
 
 
@@ -77,7 +92,7 @@ overflow:visible;
 }
 
 .main-menu {
-  margin-top: 120px;
+  margin-top: 150px;
   background-image: url("imagenes/FJFJFJF.jpg");
   background-repeat: no-repeat;
 border-right:1px solid #e5e5e5;
