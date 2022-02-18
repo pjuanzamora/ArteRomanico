@@ -2,7 +2,7 @@
   text-align: center;
   color: black;
   font-size: 60px;
-  padding: 30px;
+  padding: 10px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: pref;
   background-color: rgb(180, 125, 125);
@@ -20,15 +20,9 @@ body{
   background-image: url();
 }
 
-tabla.{
-  text-align: right;
-  border-spacing: 50px;
-  left: 0px;
-}
-
 
 header{
-  margin-bottom: 100px;
+  margin-bottom: 40px;
   border: burlywood;
 }
 
@@ -76,7 +70,9 @@ header{
  .card {
 	 float: left;
 	 padding: 0 1.7rem;
-	 width: 50%;
+	 width: 33%;
+	 margin-bottom: 40px;
+	 left: 50px;
 }
  .card .menu-content {
 	 margin: 0;
@@ -301,7 +297,7 @@ header{
 	 opacity: 1;
 }
  
-
+/*
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
  * {
 	 box-sizing: border-box;
@@ -488,6 +484,7 @@ header{
  .example-1 .menu-content span {
 	 top: -10px;
 }
+*/
  .example-3 .wrapper {
 	 background: url(Imágenes/Portico-de-la-gloria.jpg) center / cover no-repeat;
 }
@@ -554,7 +551,7 @@ header{
 }
  
 .example-4 .wrapper {
-	background: url(Imágenes/Portico-de-la-gloria.jpg) center / cover no-repeat;
+	background: url(Imágenes/Fromista_-_iglesia_de_san_martin.jpg) center / cover no-repeat;
 }
 .example-4 .wrapper:hover .menu-content span {
 	transform: translate(-50%, -10px);
@@ -665,11 +662,12 @@ header{
 	margin: 2em auto 1em;
 	text-align: center;
 	font-size: 12px;
-	color: white
+	color: white;
 	line-height: 1;
 	position: relative;
 	font-weight: 700;
 }
+
 .example-5 .button::after {
 	content: '\2192';
 	opacity: 0;
@@ -687,7 +685,7 @@ header{
 
 
 .example-6 .wrapper {
-	background: url(Imágenes/cATEDRAL\ DE\ SANTIAGO.jpg) center / cover no-repeat;
+	background: url(Imágenes/santuario\ fuensanta.jpg) center / cover no-repeat;
 }
 .example-6 .wrapper:hover .menu-content span {
 	transform: translate(-50%, -10px);
@@ -732,7 +730,7 @@ header{
 	margin: 2em auto 1em;
 	text-align: center;
 	font-size: 12px;
-	color: white
+	color: white;
 	line-height: 1;
 	position: relative;
 	font-weight: 700;
@@ -750,4 +748,3 @@ header{
 	transform: translate(5px, -50%);
 	opacity: 1;
 }
-
