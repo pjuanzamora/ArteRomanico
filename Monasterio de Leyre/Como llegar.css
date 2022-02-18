@@ -1,6 +1,13 @@
 iframe{
-    margin: 200px auto;
+    margin: 100px auto;
+    text-align: right;
 }
-table{
-    background-color: azure;
+
+.Ubicación{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 100px;
+    
 }
+
