@@ -3,7 +3,7 @@ header{
   text-align: center;
   height: 40px;
   font-size: 30px;
-  padding-top: 5px;
+  padding-top: 10px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -28,7 +28,6 @@ body {
   }
   
   ::-webkit-scrollbar-track {
-      -webkit-box-shadow: inset 0 0 6px #61472a;
       background-color: #b8a186;
   }
   
