@@ -11,9 +11,9 @@ header{
 footer{
     background-color: #e6e6e6;
     color: rgb(0, 0, 0);
-    padding:0px;
+    padding:0cm;
     border: 1px solid black;
-    margin-top: 4.5cm;
+    margin-top: 0cm;
 }
 #Basílica{
     margin-top: 2cm;
@@ -98,6 +98,7 @@ ul li ul li a {
     position: relative;
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
     margin-top: 26px;
+    margin-bottom: 200px;
 }
 
 .slide-inner {
@@ -218,7 +219,7 @@ ul li ul li a {
          -1px 0px 2px rgba(255, 255, 255, 0);
 } 
 
-/*Tarjeta planta*/
+/*Tarjeta principal planta*/
 body {
     background: #eee;
 }
@@ -378,8 +379,8 @@ a.icon-link:hover {
   
   .card {
     margin: auto;
-    width: 280px;
-    height: 360px;
+    width: 448px;
+    height: 713px;
     border-radius: 15px;
     padding: 1.5rem;
     background: white;
@@ -442,4 +443,5 @@ a.icon-link:hover {
         .card .info button:hover {
           background: dodgerblue;
           color: white; }
-  
+
+
