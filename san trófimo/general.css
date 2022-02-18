@@ -2,7 +2,7 @@ nav {
 	margin: 27px auto 0;
 
 	position: relative;
-	width: 900px;
+	width: 880px;
 	height: 50px;
 	background-color: #34495e;
 	border-radius: 8px;
@@ -50,7 +50,7 @@ nav .start-home, a:nth-child(1):hover~.animation {
 	background-color: #1abc9c;
 }
 nav .start-about, a:nth-child(2):hover~.animation {
-	width: 110px;
+	width: 100px;
 	left: 250px;
 	background-color: #e74c3c;
 }
@@ -60,13 +60,13 @@ nav .start-blog, a:nth-child(3):hover~.animation {
 	background-color: #3498db;
 }
 nav .start-portefolio, a:nth-child(4):hover~.animation {
-	width: 160px;
-	left: 310px;
+	width: 110px;
+	left: 530px;
 	background-color: #9b59b6;
 }
 nav .start-contact, a:nth-child(5):hover~.animation {
-	width: 120px;
-	left: 470px;
+	width: 220px;
+	left: 660px;
 	background-color: #e67e22;
 }
 
@@ -97,4 +97,119 @@ p {
 
 span {
     color: #2BD6B4;
+}
+/*
+html * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+body {
+	background-color: #262626;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+*/
+i {
+	position: absolute;
+	display: block;
+	width: 500px;
+	height: 300px;
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+i:before, i:after {
+	content: '⥪';
+	position: absolute;
+	top: 50%;
+	left: 1rem;
+	z-index: 2;
+	width: 2rem;
+	height: 2rem;
+	background: dodgerblue;
+	color: white;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	pointer-events: none;
+}
+
+i:after {
+	content: '⥭';
+	left: auto;
+	right: 1rem;
+}
+
+/* I haven't found a way for IE and Edge to let me style inputs that way */
+input {
+	appearance: none;
+	-ms-appearance: none;
+	-webkit-appearance: none;
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	transform: translateX(100%);
+	transition: transform ease-in-out 400ms;
+	z-index: 1;
+}
+
+input:focus {
+	outline: none;
+}
+
+input:after {
+	content: attr(title);
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+	padding: .5rem;
+	font-size: 1rem;
+	border-radius: 5px;
+}
+
+input:not(checked):before {
+	content: '';
+	position: absolute;
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	top: 50%;
+	left: calc(-100% + 1rem);
+}
+
+input:checked:before {
+	display: none;
+	left: 1rem;
+}
+
+input:checked {
+	transform: translateX(0);
+	pointer-event: none;
+	z-index: 0;
+	
+}
+
+input:checked + input:before {
+	left: -3rem;
+}
+
+input:checked + input ~ input:before {
+	display: none;
+}
+.iii{
+	margin: 9% auto auto 33%;
 }
