@@ -92,14 +92,15 @@ overflow:visible;
 }
 
 .main-menu {
-  margin-top: 150px;
-  background-image: url("imagenes/FJFJFJF.jpg");
-  background-repeat: no-repeat;
+margin-top: 150px;
+background-image: url("imagenes/FJFJFJF.jpg");
+background-repeat: no-repeat;
+text-align: left;
+text-align: center;
 border-right:1px solid #e5e5e5;
 position:absolute;
 top:0;
 bottom:0;
-height:100%;
 left:0;
 width:60px;
 overflow:hidden;
@@ -177,6 +178,7 @@ width:190px;
 position:absolute;
 left:0;
 bottom:0;
+color: white;
 }
 
 .no-touch .scrollable.hover {

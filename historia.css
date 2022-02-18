@@ -1,4 +1,4 @@
-.localizacion{
+.historia{
     color: black;
     text-align: center;
     background-color:transparent;
@@ -12,8 +12,5 @@
     font-size: 35px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-variant-east-asian: traditional;
+
 }
-.foto2{
-    grid-column: 10/ span 1;
-    width: 110px;
-   }
