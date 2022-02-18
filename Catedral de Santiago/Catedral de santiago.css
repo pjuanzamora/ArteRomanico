@@ -23,7 +23,9 @@ footer{
 
 
 }
-
+.fotoplanta{
+    margin-left: 100px;
+}
 
 
 
@@ -38,7 +40,7 @@ nav.primary-navigation {
 nav.primary-navigation ul li {
     list-style: none;
     margin: 0 auto;
-    border-left: 2px solid #3ca0e7;
+    border-left: 2px solid #ff0202f5;
     display: inline-block;
     padding: 0 30px;
     position: relative;
@@ -51,7 +53,7 @@ nav.primary-navigation li a {
     color: black;
 }
 nav.primary-navigation li a:hover {
-    color: #3ca0e7;
+    color: #ff0101;
 }
 nav.primary-navigation li:hover {
     cursor: pointer;
@@ -83,14 +85,14 @@ nav.primary-navigation ul li ul li {
 }
 nav.primary-navigation ul li ul li a:hover {
     padding-left: 10px;
-    border-left: 2px solid #3ca0e7;
+    border-left: 2px solid #ff0000;
     transition: all 0.3s ease;
 }
 a {
     text-decoration: none;
 }
 a:hover {
-    color: #3ca0e7;
+    color: #ff0000;
 }
 ul li ul li a {
     transition: all 0.5s ease;
