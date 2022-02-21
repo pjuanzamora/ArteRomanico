@@ -1,0 +1,16 @@
+.historia{
+    color: black;
+    text-align: center;
+    background-color:transparent;
+    font-size: 25px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 30px;
+    font-variant: small-caps;
+}
+.texto{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant-east-asian: traditional;
+
+}

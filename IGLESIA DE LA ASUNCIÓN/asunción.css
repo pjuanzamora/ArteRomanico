@@ -3,11 +3,13 @@ body{
   background-image:url("imagenes/iglesia-asuncion-villacarrillo.JPG");
   background-repeat: no-repeat;
   background-size: cover;
-
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:maroon;
   }
 
-
-header h1{
+header{
+  display: grid;
+  grid-template-columns:repeat(10,1fr);
   margin-top: 0px;
 	text-align: center;
   padding: 20px;
@@ -15,20 +17,30 @@ header h1{
   background-repeat:no-repeat;
   background-size: cover;
   font-weight:900;
-
+  font-size: 20px;
 }
-
-header{
-  margin-left: 0px;
-  margin-right: 0px;
+.foto{
+ grid-column: 2/ span 1;
+ width: 150px;
+}
+.foto2{
+  grid-column: 10/ span 1;
+  width: 110px;
+ }
+.titulo{
+  grid-column: 3/span 7;
 }
 
 
 footer{
-  text-align: right;
+  text-align-last: right;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: white;
+
 }
-
-
 
 
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
@@ -80,14 +92,15 @@ overflow:visible;
 }
 
 .main-menu {
-  margin-top: 75px;
-  background-image: url("imagenes/FJFJFJF.jpg");
-  background-repeat: no-repeat;
+margin-top: 150px;
+background-image: url("imagenes/FJFJFJF.jpg");
+background-repeat: no-repeat;
+text-align: left;
+text-align: center;
 border-right:1px solid #e5e5e5;
 position:absolute;
 top:0;
 bottom:0;
-height:100%;
 left:0;
 width:60px;
 overflow:hidden;
@@ -141,7 +154,6 @@ text-decoration:none;
 -webkit-transform:translateZ(0) scale(1,1);
 -webkit-transition:all .1s linear;
 transition:all .1s linear;
-  
 }
 
 .main-menu .nav-icon {
@@ -166,6 +178,7 @@ width:190px;
 position:absolute;
 left:0;
 bottom:0;
+color: white;
 }
 
 .no-touch .scrollable.hover {
