@@ -17,3 +17,11 @@
     grid-column: 10/ span 1;
     width: 110px;
    }
+.texto1
+{color: ghostwhite;}
+.tabla{
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    color: ghostwhite;
+}
