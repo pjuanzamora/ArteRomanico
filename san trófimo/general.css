@@ -212,4 +212,5 @@ input:checked + input ~ input:before {
 }
 .iii{
 	margin: 9% auto auto 33%;
+	height: 400px;
 }
