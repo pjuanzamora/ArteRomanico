@@ -1,0 +1,231 @@
+<!--
+        <section>
+            <p class="Introducción">
+                <b> El Pórtico de la Gloria es la entrada occidental a la catedral 
+                    de Santiago de Compostela, escondida tras la fachada gótica creada posteriormente, 
+                    ideada por el maestro Mateo es considerada la cumbre del arte universal. Esta obra se 
+                    realizó bajo el encargo del rey Fernando II de León, siendo iniciada hacia 1168 y culminada 
+                    en el año 1188, siendo un conjunto de tres arcos esculpidos en tan solo 20 años. </b>
+            </p>
+        </section>
+-->
+
+<!--
+        <nav>
+            <div class="area"></div><nav class="main-menu">
+                <ul>
+                    <li>
+                        <a href="Pórtico inicio.html">
+                            <i class="fa fa-home fa-2x"></i>
+                            <span class="nav-text">
+                                Inicio
+                            </span>
+                        </a>
+                      
+                    </li>
+                    <li class="has-subnav">
+                        <a href="#">
+                            <i class="fa fa-laptop fa-2x"></i>
+                            <span class="nav-text">
+                                Ficha técnica
+                            </span>
+                        </a>
+                        
+                    </li>
+                    <li class="has-subnav">
+                        <a href="Pórtico análisis.html">
+                           <i class="fa fa-list fa-2x"></i>
+                            <span class="nav-text">
+                                Análisis
+                            </span>
+                        </a>
+                        
+                    </li>
+                    <li class="has-subnav">
+                        <a href="https://my.matterport.com/show/?m=C8MtCEvJ2rL&sr=.43,-.27&ss=6" target="_blank">
+                           <i class="fa fa-folder-open fa-2x"></i>
+                            <span class="nav-text">
+                                Visita virtual
+                            </span>
+                        </a>
+                       
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-bar-chart-o fa-2x"></i>
+                            <span class="nav-text">
+                                Recursos digitales
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+        </nav>
+-->
+
+<!--
+        <div class="slide">
+          <div class="slide-inner">
+            <input class="slide-open" type="radio" id="slide-1" 
+                  name="slide" aria-hidden="true" hidden="" checked="checked">
+            <div class="slide-item" align="center">
+              <img src="Imagenes Jose/photo8.jpg">
+            </div>
+            <input class="slide-open" type="radio" id="slide-2" 
+                  name="slide" aria-hidden="true" hidden="" checked="checked">
+            <div class="slide-item" align="center">
+              <img src="Imagenes Jose/photo5.jpg" >
+            </div>
+            <input class="slide-open" type="radio" id="slide-3" 
+                  name="slide" aria-hidden="true" hidden="" checked="checked">
+            <div class="slide-item" align="center">
+              <img src="Imagenes Jose/photo4.jpg">
+            </div>
+            <input class="slide-open" type="radio" id="slide-4" 
+                  name="slide" aria-hidden="true" hidden="" checked="checked">
+            <div class="slide-item" align="center">
+              <img src="Imagenes Jose/photo6.jpg" >
+            </div>
+            <label for="slide-1" class="slide-control next control-4">›</label>
+            <label for="slide-1" class="slide-control prev control-2">‹</label>
+            <label for="slide-2" class="slide-control next control-1">›</label>
+            <label for="slide-2" class="slide-control prev control-3">‹</label>
+            <label for="slide-3" class="slide-control next control-2">›</label>
+            <label for="slide-3" class="slide-control prev control-4">‹</label>
+            <label for="slide-4" class="slide-control next control-3">›</label>
+            <label for="slide-4" class="slide-control prev control-1">‹</label>
+            
+            
+            <ol class="slide-indicador">
+              <li>
+                <label for="slide-1" class="slide-circulo">•</label>
+              </li>
+              <li>
+                <label for="slide-2" class="slide-circulo">•</label>
+              </li>
+              <li>
+                <label for="slide-3" class="slide-circulo">•</label>
+              </li>
+              <li>
+                <label for="slide-4" class="slide-circulo">•</label>
+              </li>
+            </ol>
+          </div>
+        </div>
+-->
+
+
+/* @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+.fa-2x {
+font-size: 2em;
+}
+.fa {
+position: relative;
+display: table-cell;
+width: 60px;
+height: 36px;
+text-align: center;
+vertical-align: middle;
+font-size:20px;
+}
+
+
+.main-menu:hover,nav.main-menu.expanded {
+width:250px;
+overflow:visible;
+}
+
+.main-menu {
+background:#4d4d4d;
+border-right:1px solid #e5e5e5;
+position:absolute;
+top:0;
+bottom:0;
+height:100%;
+left:0;
+width:60px;
+overflow:hidden;
+-webkit-transition:width .05s linear;
+transition:width .05s linear;
+z-index:1000;
+}
+
+.main-menu>ul {
+margin:7px 0;
+}
+
+.main-menu li {
+position:relative;
+display:block;
+width:250px;
+}
+
+.main-menu li>a {
+position:relative;
+display:table;
+border-collapse:collapse;
+border-spacing:0;
+color:#999;
+ font-family: arial;
+font-size: 14px;
+text-decoration:none;
+-webkit-transition:all .1s linear;
+transition:all .1s linear;
+  
+}
+
+.main-menu .nav-icon {
+position:relative;
+display:table-cell;
+width:60px;
+height:36px;
+text-align:center;
+vertical-align:middle;
+font-size:18px;
+}
+
+.main-menu .nav-text {
+position:relative;
+display:table-cell;
+vertical-align:middle;
+width:190px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.main-menu>ul.logout {
+position:absolute;
+left:0;
+bottom:0;
+}
+
+.no-touch .scrollable.hover {
+overflow-y:hidden;
+}
+
+.no-touch .scrollable.hover:hover {
+overflow-y:auto;
+overflow:visible;
+}
+
+a:hover,a:focus {
+text-decoration:none;
+}
+
+nav {
+-webkit-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+-o-user-select:none;
+user-select:none;
+}
+
+nav ul,nav li {
+outline:0;
+margin:0;
+padding:0;
+}
+.main-menu li:hover>a,nav.main-menu li.active>a,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus,.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,.dashboard-page nav.dashboard-menu ul li.active a {
+color:#fff;
+background-color:#5fa2db;
+}
+*/
