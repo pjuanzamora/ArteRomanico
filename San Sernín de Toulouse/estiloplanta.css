@@ -1,0 +1,4 @@
+.footer {
+    background-color: yellowgreen;
+    grid-template-columns: 1 / 2;
+}

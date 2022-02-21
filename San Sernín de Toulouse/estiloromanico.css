@@ -112,7 +112,7 @@ ul li ul li a {
     position: absolute;
     opacity: 0;
     transition: ease-out 0s;
-    transition: ease-in 0.5s;
+    transition: ease-in 0s;
 }
 
 .slide-open:checked + .slide-item {
@@ -356,8 +356,9 @@ a.icon-link:hover {
 /*Grid*/
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
+    grid-template-rows: repeat(2, 1fr);
   }
 
   .b{
@@ -373,7 +374,7 @@ a.icon-link:hover {
 
   
   .wrapper {
-    display: flex;
+    display: grid;
     width: 90%;
     justify-content: space-around; }
   
