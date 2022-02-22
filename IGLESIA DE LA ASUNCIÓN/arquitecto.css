@@ -1,5 +1,5 @@
 .arquitecto{
-    color: black;
+    color: ghostwhite;
     text-align: center;
     background-color:transparent;
     font-size: 25px;
@@ -22,6 +22,16 @@
 .tabla{
     margin-left: 300px;
     margin-right: 300px;
+    text-align: center;
+    color: ghostwhite;
+}
+.texto2{
+    color: ghostwhite;
+}
+
+.tabla1{
+    margin-left: 375px;
+    margin-right: 350px;
     text-align: center;
     color: ghostwhite;
 }

@@ -1,5 +1,5 @@
 .arquitectura{
-    color: black;
+    color: ghostwhite;
     text-align: center;
     background-color:transparent;
     font-size: 25px;
@@ -7,13 +7,20 @@
     margin-right: 300px;
     margin-top: 30px;
     font-variant: small-caps;
+    text-align: center;
 }
 .texto{
     font-size: 35px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-variant-east-asian: traditional;
+    text-align: center
 }
-.foto2{
-    grid-column: 10/ span 1;
-    width: 110px;
+.foto22{
+    width: 400PX;
+    height: 300px;
+   }
+
+   .foto11{
+       width: 200px;
+       height: 300px;
    }
