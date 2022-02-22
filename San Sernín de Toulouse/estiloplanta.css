@@ -1,4 +1,4 @@
-.footer {
-    background-color: yellowgreen;
-    grid-template-columns: 1 / 2;
+.card {
+    width: 448px;
+    height: 713px;
 }

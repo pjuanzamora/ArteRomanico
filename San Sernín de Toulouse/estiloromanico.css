@@ -8,13 +8,16 @@ header{
     padding: 2px;
 }
 
-footer{
+.footer{
     background-color: #e6e6e6;
     color: rgb(0, 0, 0);
     padding:0cm;
     border: 1px solid black;
     margin-top: 0cm;
+    grid-column-start: x0;
+    grid-column-end: x2;
 }
+
 #Basílica{
     margin-top: 2cm;
     border: 1px solid black;
@@ -356,9 +359,9 @@ a.icon-link:hover {
 /*Grid*/
 .grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: [x0] 1fr [x1] 1fr [x2];
+    grid-template-rows: [y0] 1fr [y1] [y2];
     grid-gap: 20px;
-    grid-template-rows: repeat(2, 1fr);
   }
 
   .b{
@@ -380,8 +383,6 @@ a.icon-link:hover {
   
   .card {
     margin: auto;
-    width: 448px;
-    height: 713px;
     border-radius: 15px;
     padding: 1.5rem;
     background: white;
@@ -446,3 +447,12 @@ a.icon-link:hover {
           color: white; }
 
 
+    .footer{
+    background-color: #e6e6e6;
+    color: rgb(0, 0, 0);
+    padding:0cm;
+    border: 1px solid black;
+    margin-top: 0cm;
+    grid-column-start: x0;
+    grid-column-end: x2;
+}
