@@ -1,13 +1,22 @@
-iframe{
-    margin: 100px auto;
-    text-align: right;
-}
 
-.Ubicación{
-    color: white;
+.ubicacion{
+    color: black;
     text-align: center;
-    font-size: 20px;
-    margin-right: 100px;
-    
+    background-color:wheat;
+    font-size: 25px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 130px;
+    font-variant: small-caps;
 }
 
+
+.titulo{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant-east-asian: traditional;
+}
+
+.mapa{
+    text-align: center;
+}
