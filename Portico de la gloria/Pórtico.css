@@ -239,7 +239,8 @@ body {
 .slide {
     position: relative;
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
-    margin-top: 26px;
+    margin-top: 40mm;
+    margin-bottom: 200px;
 }
 
 .slide-inner {
@@ -253,7 +254,7 @@ body {
     position: absolute;
     opacity: 0;
     transition: ease-out 0s;
-    transition: ease-in 0.5s;
+    transition: ease-in 0s;
 }
 
 .slide-open:checked + .slide-item {
