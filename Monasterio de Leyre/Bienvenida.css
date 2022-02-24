@@ -1,6 +1,22 @@
 .texto{
-    font-size: 35px;
+    font-size: 60px;
     font-family: 'Times New Roman', Times, serif;
     font-variant-east-asian: traditional;
+    margin-left: 350px;
+    margin-top: 180px;
+    margin-right: 1170px;
 }
 
+
+
+p{
+    margin-left: 100px;
+    background-color: azure;
+    font-size: 25px;
+    margin-right: 860px;
+}
+
+.descarga{
+    margin-left: 1300px;
+    
+}
