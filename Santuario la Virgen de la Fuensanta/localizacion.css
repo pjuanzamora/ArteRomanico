@@ -1,9 +1,8 @@
-.card__image{
+.card__image6{
     opacity: 0;
     animation: ImageFadeIn 0.8s 1.4s forwards;
     display:block;
     margin:auto;
-    height: auto;
-    size: 300px;
+    size:200px;
 }
    
