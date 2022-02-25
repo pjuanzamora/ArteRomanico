@@ -73,7 +73,7 @@
 .slide {
     position: relative;
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
-    margin-top: 40mm;
+    margin-top: 26px;
     margin-bottom: 200px;
 }
 
@@ -86,9 +86,11 @@
 
 .slide-item {
     position: absolute;
-    opacity: 1;
-    transition: ease-out 0s;
-    transition: ease-in 0s;
+    opacity: 0;
+    transition: ease-out 1s;
+    transition: ease-in 1s;
+    margin-top: 95px;
+
 }
 
 .slide-open:checked + .slide-item {
@@ -100,7 +102,6 @@
     display: block;
     height: auto;
     max-width: 100%;
-    margin-top: 100px;
 }
 
 .slide-control {
