@@ -1,12 +1,12 @@
-.texto{
+.pm{
     font-size: 60px;
     font-family: 'Times New Roman', Times, serif;
     font-variant-east-asian: traditional;
- 
+    
 }
 
-table{
-    margin-top: 100px;
+.monasterio{
+    margin-top: 400px;
     text-align: center;
     margin-left: 300px;
 }
