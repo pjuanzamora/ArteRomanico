@@ -1,4 +1,4 @@
-.historia{
+.arquitectura{
     color: ghostwhite;
     text-align: center;
     background-color:transparent;
@@ -7,15 +7,30 @@
     margin-right: 300px;
     margin-top: 30px;
     font-variant: small-caps;
+    text-align: center;
+    font-size: 20px;
+}
+.texto12{
+    text-decoration: underline;
 }
 .texto{
     font-size: 35px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-variant-east-asian: traditional;
-
+    text-align: center
 }
-
 .foto22{
-    width: 500px;
+    width: 400PX;
     height: 300px;
+   }
+
+   .foto11{
+       width: 200px;
+       height: 300px;
+   }
+.tabla1{
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    color: ghostwhite;
 }
