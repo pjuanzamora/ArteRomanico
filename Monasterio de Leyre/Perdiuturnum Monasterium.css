@@ -6,9 +6,10 @@
 }
 
 .monasterio{
-    margin-top: 400px;
+    margin-top: 100px;
     text-align: center;
     margin-left: 300px;
+    margin-right: 300px;
 }
 
 p{
@@ -20,4 +21,9 @@ p{
 
 .bueno{
     text-align: center;
+}
+
+.descarga{
+    margin-left: 770px;
+    margin-right: 300px;
 }
