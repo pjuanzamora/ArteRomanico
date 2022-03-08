@@ -1,6 +1,0 @@
-.grid1 {
-    display: grid;
-    grid-template-columns: [x0] 1fr [x1];
-    grid-template-rows: [y0] 1fr [y1] 1fr [y2] 2cm [y3];
-    grid-gap: 20px;
-  }
