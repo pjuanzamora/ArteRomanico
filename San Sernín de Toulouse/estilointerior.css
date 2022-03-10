@@ -1,0 +1,13 @@
+/*Grid*/
+.grid1 {
+    display: grid;
+    grid-template-columns: [x0] 1fr [x1] 1fr [x2];
+    grid-template-rows: [y0] 1fr [y1] 1fr [y2];
+    grid-gap: 20px;
+  }
+
+  .card {
+    width: 280px;
+    height: 208px;
+}
+
