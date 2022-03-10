@@ -16,19 +16,21 @@ body
 
 h5
 {
-  margin:0px;
-  font-size:1.4em;
+  margin:-5px;
+  font-size:1em;
   font-weight:700;
 }
 
-p
+h6
 {
-  font-size:12px;
+  font-size:20px;
+  margin:85px;
+  
 }
 
 .center
 {
-  height:100vh;
+  height:75vh;
   width:100%;
   display: flex;
   justify-content: center;
@@ -71,9 +73,8 @@ p
   -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  background-image:url('https://cdn.photographylife.com/wp-content/uploads/2017/01/What-is-landscape-photography.jpg');
-  background-size:cover;
-  background-repeat:no-repeat;
+  background-image:url("imagenes/san\ trofimo.\ ficha\ técnica.jpg")
+  
 }
 
 /* Bottom Card Section */
@@ -89,7 +90,7 @@ p
   -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   padding: 0.5em 1em;
-  text-align:center;
+  text-align: justify;
 }
 
 /* Social Icons */
