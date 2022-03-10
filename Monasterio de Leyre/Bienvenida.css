@@ -1,0 +1,24 @@
+.texto{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant-east-asian: traditional;
+ 
+}
+
+table{
+    margin-top: 220px;
+    text-align: center;
+    margin-left: 300px;
+}
+
+p{
+    
+    background-color: azure;
+    font-size: 25px;
+    
+}
+
+.bueno{
+    text-align: justify;
+}
+

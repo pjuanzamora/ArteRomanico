@@ -1,0 +1,29 @@
+
+.ubicacion{
+    color: black;
+    text-align: center;
+    background-color:azure;
+    font-size: 25px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 130px;
+    font-variant: small-caps;
+}
+
+
+.titulo{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant-east-asian: traditional;
+}
+
+.mapa{
+    text-align: center;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color:white;
+}
