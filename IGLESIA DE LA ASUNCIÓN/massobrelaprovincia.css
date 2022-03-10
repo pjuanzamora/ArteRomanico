@@ -12,6 +12,7 @@
 }
 .texto12{
     text-decoration: underline;
+    font-size: 20px;
 }
 .texto{
     font-size: 35px;
@@ -23,12 +24,45 @@
     width: 400PX;
     height: 300px;
    }
-
+.foto9{
+    width: 400px;
+    height: 300px;
+}
    .foto11{
        width: 200px;
        height: 300px;
    }
-   
+.juanca{
+    margin-left: 200px;
+    margin-right: 300px;
+    text-align: center;
+    color: gold
+}
+.tabla1{
+    color: ghostwhite;
+    text-align: center;
+}
+.foto111{
+    width: 300px;
+    height: 400px;
+}
+.jc{
+    color: ghostwhite;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.foto222{
+    width: 400px;
+    height: 250px;
+}
+.jca{
+    color: ghostwhite;
+    text-align: left;
+    margin-left: 450px;
+    margin-right: 200px;
+}
+
 footer{
     position: absolute;
     bottom: 0;
