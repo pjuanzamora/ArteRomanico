@@ -1,4 +1,4 @@
-.arquitecto{
+.arquitectura{
     color: ghostwhite;
     text-align: center;
     background-color:transparent;
@@ -7,35 +7,28 @@
     margin-right: 300px;
     margin-top: 30px;
     font-variant: small-caps;
+    text-align: center;
+    font-size: 20px;
+}
+.texto12{
+    text-decoration: underline;
 }
 .texto{
     font-size: 35px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-variant-east-asian: traditional;
+    text-align: center
 }
-.foto2{
-    grid-column: 10/ span 1;
-    width: 110px;
+.foto22{
+    width: 400PX;
+    height: 300px;
    }
-.texto1
-{color: ghostwhite;}
-.tabla{
-    margin-left: 300px;
-    margin-right: 300px;
-    text-align: center;
-    color: ghostwhite;
-}
-.texto2{
-    color: ghostwhite;
-}
 
-.tabla1{
-    margin-left: 375px;
-    margin-right: 350px;
-    text-align: center;
-    color: ghostwhite;
-}
-
+   .foto11{
+       width: 200px;
+       height: 300px;
+   }
+   
 footer{
     position: absolute;
     bottom: 0;

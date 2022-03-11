@@ -1,5 +1,5 @@
 .historia{
-    color: black;
+    color: ghostwhite;
     text-align: center;
     background-color:transparent;
     font-size: 25px;
@@ -14,3 +14,18 @@
     font-variant-east-asian: traditional;
 
 }
+
+.foto22{
+    width: 500px;
+    height: 300px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+    text-align-last: right
+  
+  }

@@ -1,5 +1,5 @@
 .localizacion{
-    color: black;
+    color: ghostwhite;
     text-align: center;
     background-color:transparent;
     font-size: 25px;
@@ -17,3 +17,13 @@
     grid-column: 10/ span 1;
     width: 110px;
    }
+
+   footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+    text-align-last: right
+  
+  }
