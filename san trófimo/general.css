@@ -1,8 +1,8 @@
 nav {
-	margin: 27px auto 0;
+	margin: 80px auto 0;
 
 	position: relative;
-	width: 880px;
+	width: 1010px;
 	height: 50px;
 	background-color: #34495e;
 	border-radius: 8px;
@@ -30,48 +30,51 @@ nav .animation {
 	border-radius: 8px;
 }
 a:nth-child(1) {
-	width: 250px;
-}
-a:nth-child(2) {
 	width: 110px;
 }
+a:nth-child(2) {
+	width: 190px;
+	
+}
 a:nth-child(3) {
-	width: 150px;
+	width: 200px;
 }
 a:nth-child(4) {
-	width: 150px;
+	width: 180px;
 }
 a:nth-child(5) {
-	width: 220px;
+	width: 315px;
 }
+
 nav .start-home, a:nth-child(1):hover~.animation {
-	width: 250px;
+	width: 110px;
 	left: 0;
 	background-color: #1abc9c;
 }
 nav .start-about, a:nth-child(2):hover~.animation {
-	width: 100px;
-	left: 250px;
+	width: 160px;
+	left: 120px;
 	background-color: #e74c3c;
 }
 nav .start-blog, a:nth-child(3):hover~.animation {
-	width: 170px;
-	left: 350px;
+	width: 200px;
+	left: 300px;
 	background-color: #3498db;
 }
 nav .start-portefolio, a:nth-child(4):hover~.animation {
-	width: 110px;
-	left: 530px;
+	width: 150px;
+	left: 515px;
 	background-color: #9b59b6;
 }
 nav .start-contact, a:nth-child(5):hover~.animation {
-	width: 220px;
-	left: 660px;
+	width: 330px;
+	left: 680px;
 	background-color: #e67e22;
 }
 
+
 body {
-	font-size: 12px;
+	font-size: 34px;
 	font-family: sans-serif;
 	background: #2c3e50;
 }
@@ -212,4 +215,5 @@ input:checked + input ~ input:before {
 }
 .iii{
 	margin: 9% auto auto 33%;
+	height: 400px;
 }
